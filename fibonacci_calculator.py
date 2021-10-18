@@ -1,8 +1,8 @@
 
 
-def fibonacci_index(index: int) -> int:
+def fibonacci_index(index):
     """returns fibonacci sequence with the given index being the last value.
-    raises a type error if given index is a string, float or zero.
+    raises a type error if given index is a string, float, zero or negative number.
     returns a string for given indexes that are 1 and 2."""
 
     if type(index) == str or type(index) == float or index < 1:
@@ -18,9 +18,9 @@ For getting better results enter a whole number bigger than 2."""
         return initial_sequence
 
 
-def fibonacci_until(values_until: int or float) -> int or float:
+def fibonacci_until(values_until):
     """returns all fibonacci sequence values that are less than the given number.
-    raises value error if the given number is less than 0.
+    raises value error if the input is a string or is less than 0.
     for 0 <= value_until <= 1 returns a string."""
 
     if type(values_until) == str or values_until < 0:
