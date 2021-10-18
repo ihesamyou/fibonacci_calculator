@@ -1,5 +1,6 @@
 # Fibonacci Calculator
 Calculates all values of the fibonacci sequence until the given index (nth number) or until the given value.
+
 There is also a test available for this script.
 
 Feel free to use this code in your projects if needed.
